@@ -1,24 +1,24 @@
 export const homeworkApp = (): void => {
   // Tipos
   const batman: string = "Bruce";
-  console.log("batman:", batman);
+  console.log("Batman:", batman);
 
   const superman: string = "Clark";
-  console.log("superman:", superman);
+  console.log("Superman:", superman);
 
   const existe: boolean = false;
-  console.log("existe:", existe);
+  console.log("Existe:", existe);
 
   // Tuplas
   const parejaHeroes: [string, string] = [batman, superman];
-  console.log("parejaHeroes:", parejaHeroes);
+  console.log("Pareja Heroes:", parejaHeroes);
 
   const villano: [string, number, boolean] = ["Lex Lutor", 5, true];
-  console.log("villano:", villano);
+  console.log("Villano:", villano);
 
   // Arreglos
   const aliados: string[] = ["Mujer Maravilla", "Acuaman", "San", "Flash"];
-  console.log("aliados:", aliados);
+  console.log("Aliados:", aliados);
 
   //Enumeraciones
   enum FuerzaSuperHeroes {
@@ -27,11 +27,11 @@ export const homeworkApp = (): void => {
     fuerzaBatman = 1,
     fuerzaAcuaman = 0,
   }
-  console.log("FuerzaSuperHeroes:", FuerzaSuperHeroes);
+  console.log("Fuerza Super Heroes:", FuerzaSuperHeroes);
 
   // Retorno de funciones
   const activarBatisenial = (): string => "Activada.";
-  console.log("activarBatisenial:", activarBatisenial());
+  console.log("Activar Batiseñal:", activarBatisenial());
 
   const pedirAyuda = (): void => {
     console.log("¡Auxilio!");
