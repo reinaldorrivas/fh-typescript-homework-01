@@ -17,7 +17,7 @@ export const homeworkApp = (): void => {
   console.log("Villano:", villano);
 
   // Arreglos
-  const aliados: string[] = ["Mujer Maravilla", "Acuaman", "San", "Flash"];
+  const aliados: string[] = ["Mujer Maravilla", "Aquaman", "San", "Flash"];
   console.log("Aliados:", aliados);
 
   //Enumeraciones
@@ -25,7 +25,7 @@ export const homeworkApp = (): void => {
     fuerzaFlash = 5,
     fuerzaSuperman = 100,
     fuerzaBatman = 1,
-    fuerzaAcuaman = 0,
+    fuerzaAquaman = 0,
   }
   console.log("Fuerza Super Heroes:", FuerzaSuperHeroes);
 
