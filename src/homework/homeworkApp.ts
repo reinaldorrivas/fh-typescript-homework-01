@@ -22,10 +22,10 @@ export const homeworkApp = (): void => {
 
   //Enumeraciones
   enum FuerzaSuperHeroes {
+    fuerzaAquaman = 0,
+    fuerzaBatman = 1,
     fuerzaFlash = 5,
     fuerzaSuperman = 100,
-    fuerzaBatman = 1,
-    fuerzaAquaman = 0,
   }
   console.log("Fuerza Super Heroes:", FuerzaSuperHeroes);
 
